@@ -1,5 +1,6 @@
 package com.vpe;
 
+import java.util.ArrayList;
 import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -30,18 +31,19 @@ public class Main {
         // System.out.println("room count: " + count);
 
 
-        var tree = new BinaryExpressionTree();
-        tree.root("*",
-            tree.create("+",
-                tree.create("3", null, null),
-                tree.create("2", null, null)),
-            tree.create("+",
-                tree.create("4", null, null),
-                tree.create("5", null, null)
-            )
-        );
+        // var tree = new BinaryExpressionTree();
+        // tree.root("*",
+        //     tree.create("+",
+        //         tree.create("3", null, null),
+        //         tree.create("2", null, null)),
+        //     tree.create("+",
+        //         tree.create("4", null, null),
+        //         tree.create("5", null, null)
+        //     )
+        // );
+        // System.out.println(tree.calc());
 
-        System.out.println(tree.calc());
-
+        int maxProfit = MaxProfit.getMaxProfit2(new int[] { 9, 11, 8, 5, 7, 10 });
+        System.out.println(maxProfit);
     }
 }
