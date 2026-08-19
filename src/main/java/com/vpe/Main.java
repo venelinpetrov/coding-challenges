@@ -43,7 +43,11 @@ public class Main {
         // );
         // System.out.println(tree.calc());
 
-        int maxProfit = MaxProfit.getMaxProfit2(new int[] { 9, 11, 8, 5, 7, 10 });
-        System.out.println(maxProfit);
+        // int maxProfit = MaxProfit.getMaxProfit2(new int[] { 9, 11, 8, 5, 7, 10 });
+        // System.out.println(maxProfit);
+
+
+        int res = Pow.pow(3, 3);
+        System.out.println(res);
     }
 }
