@@ -37,17 +37,17 @@ public class Main {
         //         tree.create("3", null, null),
         //         tree.create("2", null, null)),
         //     tree.create("+",
-        //         tree.create("4", null, null),
-        //         tree.create("5", null, null)
-        //     )
-        // );
+        //         tree.cr
         // System.out.println(tree.calc());
 
         // int maxProfit = MaxProfit.getMaxProfit2(new int[] { 9, 11, 8, 5, 7, 10 });
         // System.out.println(maxProfit);
 
 
-        int res = Pow.pow(3, 3);
+        // int res = Pow.pow(3, 3);
+        // System.out.println(res);
+
+        var res = SubsetsWithEqualSums.exists(List.of(15, 5, 20, 10, 35, 15, 10));
         System.out.println(res);
     }
 }
