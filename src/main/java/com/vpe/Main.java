@@ -47,7 +47,16 @@ public class Main {
         // int res = Pow.pow(3, 3);
         // System.out.println(res);
 
-        var res = SubsetsWithEqualSums.exists(List.of(15, 5, 20, 10, 35, 15, 10));
-        System.out.println(res);
+        // var res = SubsetsWithEqualSums.exists(List.of(15, 5, 20, 10, 35, 15, 10));
+        // System.out.println(res);
+
+        var q = new QueueWIthTwoStacks();
+        q.enqueue(10);
+        q.enqueue(20);
+        q.enqueue(30);
+
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
     }
 }
